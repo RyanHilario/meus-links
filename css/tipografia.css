@@ -1,0 +1,12 @@
+.font-m {
+  font: 400 1rem/1 Inter, sans-serif;
+}
+
+.font-m-b {
+  font: 600 1rem/1 Inter, sans-serif;
+  text-transform: uppercase;
+}
+
+.font-l {
+  font: 700 1.5rem/1 Inter, sans-serif;
+}
