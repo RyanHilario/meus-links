@@ -5,7 +5,7 @@ body {
 main {
   background: var(--cor-2);
 
-  max-width: 1000px;
+  max-width: 600px;
   margin: 100px auto;
   padding: 50px;
   border-radius: 10px;
@@ -22,7 +22,7 @@ h2 {
 }
 
 p {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 ul {
@@ -32,7 +32,7 @@ ul {
 
 li {
   background: var(--cor-1);
-  margin-top: 10px;
+  margin-top: 15px;
   border-radius: 10px;
 
   display: grid;
@@ -40,4 +40,10 @@ li {
 
 a {
   padding: 20px 0;
+}
+
+a:hover {
+  background: var(--cor-p1);
+  color: var(--cor-3);
+  border-radius: 10px;
 }
