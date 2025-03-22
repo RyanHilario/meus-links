@@ -1,0 +1,43 @@
+body {
+  background: var(--cor-3);
+}
+
+main {
+  background: var(--cor-2);
+
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 50px;
+  border-radius: 10px;
+
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+
+img,
+h1,
+h2 {
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 40px;
+}
+
+ul {
+  margin-top: 20px;
+  justify-self: stretch;
+}
+
+li {
+  background: var(--cor-1);
+  margin-top: 10px;
+  border-radius: 10px;
+
+  display: grid;
+}
+
+a {
+  padding: 20px 0;
+}
