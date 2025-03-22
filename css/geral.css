@@ -1,17 +1,19 @@
 body {
   background: var(--cor-3);
+  display: grid;
+  justify-items: center;
 }
 
 main {
   background: var(--cor-2);
 
-  max-width: 600px;
-  margin: 100px auto;
+  margin: 100px 0;
   padding: 50px;
   border-radius: 10px;
 
   display: grid;
   justify-items: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -46,4 +48,25 @@ a:hover {
   background: var(--cor-p1);
   color: var(--cor-3);
   border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  main {
+    margin: 30px 20px;
+    padding: 20px;
+  }
+
+  img,
+  h1,
+  h2 {
+    margin-top: 5px;
+  }
+
+  p {
+    margin-top: 30px;
+  }
+
+  ul {
+    margin-top: 5px;
+  }
 }
